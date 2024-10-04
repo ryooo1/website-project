@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-        <link rel="stylesheet" href="styles.css"> 
-    </head>
-    <body>
-        <div class="login-container">
-            <form action="login.php" method="POST">
-                <h2>Login</h2>
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" required>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-                <button type="submit">Login</button>
+
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="about me here">
+  <meta name="author" content="Zhuo Heng Huang">
+  <meta name="keywords" content="keywords describing you, ex: graphic design">
+
+  <title>Zhuo Heng Huang | Portfolio</title>
+    
+  <!-- external css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+ 
+</head>
+
+<body>
+  <!-- header -->
+    <section id="header">
+        <div class="header-content">
+            <h1>Hello;</h1>
+            <h2>I'm Zhuo Heng Huang, a graphic designer</h2>
+        </div>
+    </section>
+
+  <!-- sections for the content -->
+    <section id="projects">
+        <div class="projects-content">
+        <div class="project 1">
+            <a href="" target="_blank">
+                <h3></h3>
+                <p></p>
+            </a>
+        </div>
+    </section>
+  
+     
+    <section id="contact">
+        <div class="contact-content">
+            <h2 >Contact Me</h2>
+            <h3>Email: <a class="contact-info" href="mailto:justinliu103@gmail.com">justinliu103@gmail.com</a> || <a class="contact-info" href="mailto:justinl553@nycstudents.net">justinl553@nycstudents.net</a></h3>
+            <br>
+            <h4 >...or use the following form</h4>
+      
+            <form action="" method="POST">
+                <div class="form-left">
+                    <input type="text" name="name" id="name" placeholder="Your Name *" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email *" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                </div>
+          
+                <div class="form-right">
+                    <textarea name="message" id="message" placeholder="Your Message *" rows="8" required></textarea>
+                </div>
+          
+                <div class="submit-btn-container">
+                    <button type="submit">Send Message</button>
+                </div>
             </form>
         </div>
-        
-        <div class="register-container">
-            <form action="register.php" method="POST">
-                <h2>Create Account</h2>
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" required>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-                <button type="submit">Register</button>
-            </form>
-        </div>
-        
-    </body>
+    </section>
+
+    <!-- external js -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
